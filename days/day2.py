@@ -1,4 +1,4 @@
-def partOne(file):
+def part_one(file):
     with open(file, 'r') as f:
         txt_nums = f.readlines()
 
@@ -13,7 +13,7 @@ def partOne(file):
 
     return valid_reports
 
-def partTwo(file):
+def part_two(file):
     with open(file, 'r') as f:
         txt_nums = f.readlines()
 

@@ -1,6 +1,6 @@
 import re
 
-def partOne(file):
+def part_one(file):
     with open(file, 'r') as f:
         txt_str = f.readlines()
 
@@ -16,7 +16,7 @@ def partOne(file):
 
     return sum
 
-def partTwo(file):
+def part_two(file):
     with open(file, 'r') as f:
         txt_str = f.readlines()
 
