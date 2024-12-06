@@ -18,7 +18,6 @@ def part_one(file_ordering, file_updates):
         # create index map with the position that the number is at
         index_map = {index: i for i, index in enumerate(update_list)}
         valid_list = True
-        print(index_map)
 
         # iterate over ordering and check if the numbers exist and in the right order
         for order in order_str:
